@@ -42,6 +42,7 @@
   "ci_tool": ["None", "Travis", "Gitlab", "Github", "Drone"],
   "keep_local_envs_in_vcs": "y",
   "debug": "n",
+  
   "fgid": "00697",
   "regulatory_or_compliance": "n",
   "internet_facing": "n",
