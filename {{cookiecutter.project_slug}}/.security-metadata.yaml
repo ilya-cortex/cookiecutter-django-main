@@ -1,0 +1,12 @@
+#Documentation: https://docs.starbucks.com/x/DoFIIQ
+
+#Please uncomment and add the FGID for the team responsible for this repository.
+FGID:
+- {{cookiecutter.fgid}}
+
+#Please uncomment all the tags below that apply to this repository.
+Tags:
+{% if cookiecutter.regulatory_or_compliance.lower() == "n" -%}#{% endif %} - Regulatory or Compliance
+{% if cookiecutter.internet_facing.lower() == "n" -%}#{% endif %} - Internet Facing
+{% if cookiecutter.handles_l1_or_l2_data.lower() == "n" -%}#{% endif %} - Handles L1 or L2 Data
+{% if cookiecutter.business_critical.lower() == "n" -%}#{% endif %} - Tier 0 (Business Critical)
